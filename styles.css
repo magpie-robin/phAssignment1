@@ -201,6 +201,7 @@ main{
 }
 
 .gift-heading-1{
+    text-align: center;
     color: #F00;
     font-family: Inter;
     font-size: 24px;
@@ -220,4 +221,79 @@ main{
     font-family: Inter;
     font-size: 20px;
     font-weight: 400;
+}
+
+
+.newsletter-container{
+    height: 616px;
+    margin-top: 0px;
+    margin-right: 140px;
+    margin-bottom: 120px;
+    margin-left: 140px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+}
+
+.newsletter-image{
+    padding-top: 80px;
+    padding-right: 585px;
+    padding-bottom: 40px;
+    padding-left: 585px;
+}
+
+.subscribe-heading{
+    padding-right: 404px;
+    padding-left: 404px;
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.subscribe-paragraph{
+    padding-right: 212px;
+    padding-left: 212px;    
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+}
+
+
+/* 
+
+I don't have time to edit all my codes.
+I just learned how to center a div
+from youtube.
+I'll use this idea to rewrite this code 
+later.
+
+Self-note: Take it easy on yourself. Looking up might save time.
+
+*/
+
+.email-for-newsletter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    width: 500px;
+    height: 72px;
+    border-radius: 50px 0px 0px 50px;
+    background: #FFF;
+}
+
+.sub-btn{
+    width: 150px;
+    height: 80px;
+    background:red;
+    color:white;
+    border-radius: 0px 50px 50px 0px;
 }
