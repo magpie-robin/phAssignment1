@@ -15,6 +15,7 @@ main{
     margin-top: 50px;
     border-radius: 16px;
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    /* opacity: .95; */
     background-image: url("images/Banner Image.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -102,10 +103,91 @@ main{
 
 #btn-primary{
     margin-left: 126px;
-    color: black;
+    color: white;
+    background: black;
     text-align: center;
     font-family: Inter;
     font-size: 20px;
     font-weight: 700;
     text-transform: uppercase;
+    border-radius: 8px;
+}
+
+.venue-container{
+    margin-top: 0px;
+    margin-bottom: 120px;
+    margin-left: 140px;
+    margin-right: 140px;
+    background: rgb(219, 168, 168);
+    height: 482px;
+    /* opacity: .25; */
+}
+
+.venue-info{
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: 100px;
+    /* padding-left: 100px; */
+}
+
+
+
+.btn-venue{
+    padding-left: 576px;
+    color: #F00;
+}
+
+#btn{
+    height: 56px;
+    width: 167px;
+    background: #F00;
+    color: white;
+    border-radius: 8px;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.new-offer-container{
+    display: flex;
+    margin-top: 0;
+    margin-right: 140px;
+    margin-bottom: 140px;
+    margin-left: 120px;
+    width: 1320px;
+}
+
+.new-offer-info{
+    padding-left: 20px;
+    padding-right: 120px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.new-offer-cs{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.new-offer-details{
+    max-width: 400px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    padding-right: 70px;
+}
+
+.happy-customers{
+    padding-right: 100px;
 }
